@@ -1,0 +1,129 @@
+{
+  "_from": "react-collapse-pane@^2.0.1",
+  "_id": "react-collapse-pane@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-6D95mymzY+NFKDkvjBGgsRNYbcSdLeY3Af7ll+IfIKh7dAmHyqKFh6cGj4sueVdxWoAgtbagiIeRgRcX/rYXUA==",
+  "_location": "/react-collapse-pane",
+  "_phantomChildren": {
+    "@babel/helper-module-imports": "7.14.5",
+    "@babel/traverse": "7.15.0",
+    "@emotion/is-prop-valid": "0.8.8",
+    "@emotion/stylis": "0.8.5",
+    "@emotion/unitless": "0.7.5",
+    "babel-plugin-styled-components": "1.13.2",
+    "css-to-react-native": "3.0.0",
+    "hoist-non-react-statics": "3.3.2",
+    "shallowequal": "1.1.0",
+    "supports-color": "5.5.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-collapse-pane@^2.0.1",
+    "name": "react-collapse-pane",
+    "escapedName": "react-collapse-pane",
+    "rawSpec": "^2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-collapse-pane/-/react-collapse-pane-2.0.1.tgz",
+  "_shasum": "e5dc9c2c16d2ecd98f36ed81daa2a36948960a4a",
+  "_spec": "react-collapse-pane@^2.0.1",
+  "_where": "C:\\workspace\\pms-react",
+  "author": {
+    "name": "Buzurgmehr Arjmandi"
+  },
+  "bugs": {
+    "url": "https://github.com/b-zurg/react-collapse-pane/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "styled-components": "^5.3.0"
+  },
+  "deprecated": false,
+  "description": "The splittable, draggable and collapsible react layout library.",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.4",
+    "@types/styled-components": "^5.1.9",
+    "babel-loader": "^8.2.2",
+    "husky": "^6.0.0",
+    "react": "^17.0.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^17.0.0",
+    "react-is": "^17.0.2",
+    "ts-loader": "^9.1.2",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://collapse-pane.zurg.dev",
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "split",
+    "pane",
+    "layout",
+    "collapse",
+    "typescript",
+    "splitter",
+    "splittable",
+    "collapsible",
+    "drag",
+    "draggable",
+    "dragging",
+    "panel",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/react-collapse-pane.esm.js",
+  "name": "react-collapse-pane",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-zurg/react-collapse-pane.git"
+  },
+  "scripts": {
+    "build": "tsdx build",
+    "build-storybook": "build-storybook",
+    "lint": "tsdx lint",
+    "lint:fix": "tsdx lint --fix",
+    "prepare": "tsdx build",
+    "start": "tsdx watch",
+    "storybook": "start-storybook -p 6006",
+    "test": "tsdx test --passWithNoTests"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "2.0.1"
+}
